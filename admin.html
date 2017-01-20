@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AppAdmin">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BSMK Admin</title>
+
+    <!-- CSS и JavaScript -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" />
+  
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    
+    <script src="scripts/admin.js"></script>
+    </head>
+
+    <body ng-controller="moduleController">    
+        <div class="container" >      
+            <h1 ng-bind="h1"></h1>
+            
+            
+            <h1 ng-bind="front.title"></h1>
+            <p><span>front.body: </span><span ng-bind="front.body"></span></p>
+            <div class="row">
+                <div class="col-md-3">
+                    <form name="frontForm" ng-submit="setFront()" >
+                        <input type="text" name="frontTitle" class="form-control" ng-model="front.title" />
+                        <input type="text" name="frontBody" class="form-control" ng-model="front.body"  />
+                        <input type="submit" class="btn" value="save" />
+                    </form>
+                </div>
+            </div>
+            
+            
+            <p ng-bind="status"></p>
+            <div class="row">
+                <ul>
+                    <li  ng-repeat="module in modules" ng-if="module.status == true">
+                        <a href="" ng-bind="module.name"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </body>
+</html>
