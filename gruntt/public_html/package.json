@@ -1,0 +1,12 @@
+{
+  "name": "testrd",
+  "author": "FlatEdge",
+  "version": "0.1.0",
+  "description": "Test web application template with Bootstrap 3 and AngularJS",
+  "repository": "-",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}

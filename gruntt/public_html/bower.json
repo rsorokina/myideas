@@ -1,0 +1,11 @@
+{
+  "name": "myAngular",
+  "description": "First template",
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "angular": "~1.4.9",
+    "bootstrap": "~3.3.6",
+    "fancybox": "~2.1.5",
+    "vs-google-autocomplete": "~0.5.0"
+  }
+}

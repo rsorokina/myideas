@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test RD</title>
+        <meta name="description" content="Test RD">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../bower_components/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+        
+    </head>
+    <body>
+    <div class="container" ng-controller="TestController">      
+      <h1 ng-bind="h1"></h1>
+        <p>{{status}}</p>444444444444
+        <div class="row" ng-repeat="car in data">
+            <div class="col-md-1" ng-bind="car.id"></div>
+            <div class="col-md-1" ng-bind="car.countrycode"></div>
+            <div class="col-md-2" ng-bind="car.brand"></div>
+        </div>
+    </div>
+
+        
+        
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+    
+        
+        <!--
+<script src="scripts/map.js"></script>
+        <script src="scripts/video.js"></script>
+        <script src="scripts/carousel.js"></script>
+        <script src="scripts/timer.js"></script>
+        <script src="scripts/app.js"></script>
+-->
+<script src="build/production.min.js"></script>
+
+
+        
+        
+        
+    </body>
+</html>
