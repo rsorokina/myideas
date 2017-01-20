@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AppFront">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BSMK Front</title>
+
+    <!-- CSS и JavaScript -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" />
+  
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    
+    <script src="scripts/front.js"></script>
+    </head>
+
+    <body  ng-controller="frontController" ng-style="{'background-color': front.body}" >    
+        <div class="container">      
+            <h1 ng-bind="h1"></h1>
+            <h1 ng-bind="front.title"></h1>
+            <div class="row">
+                
+            </div>
+        </div>    
+    </body>
+</html>

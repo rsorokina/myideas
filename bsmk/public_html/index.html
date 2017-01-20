@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BSMK</title>
+
+    <!-- CSS и JavaScript -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" />
+  
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    
+    <script src="scripts/app.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Menu</h1>
+            <div class="row">
+                <ul>
+                    <li><a href="http://bsmk/front.html" target="_blank">Front</a></li>
+                    <li><a href="http://bsmk/admin.html" target="_blank">Admin Panel</a></li>
+                    <li><a href="http://bsmk/profile.html" target="_blank">Profile Panel</a></li>
+                </ul>
+            </div>
+        </div>    
+        <div class="container" ng-controller="countryController">      
+            <h1 ng-bind="h1"></h1>
+            <p ng-bind="status"></p>
+            <div class="row" ng-repeat="country in data">
+                <div class="col-md-1" ng-bind="country.id"></div>
+                <div class="col-md-1" ng-bind="country.code"></div>
+                <div class="col-md-2" ng-bind="country.name"></div>
+            </div>
+        </div>
+        <div class="container" ng-controller="carController">    
+            <h1 ng-bind="h1"></h1>
+            <p ng-bind="status"></p>
+            <div class="row" ng-repeat="car in data">
+                <div class="col-md-1" ng-bind="car.id"></div>
+                <div class="col-md-1" ng-bind="car.countrycode"></div>
+                <div class="col-md-2" ng-bind="car.brand"></div>
+            </div>
+        </div>    
+    </body>
+</html>

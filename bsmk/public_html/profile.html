@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AppProfile">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BSMK Profile</title>
+
+    <!-- CSS и JavaScript -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" />
+  
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    
+    <script src="scripts/profile.js"></script>
+    </head>
+
+    <body>    
+        <div class="container" ng-controller="profileController">    
+            <h1 ng-bind="h1"></h1>
+            <p ng-bind="status"></p>
+            <div class="row" ng-repeat="module in modules">
+                <div class="col-md-1" ng-bind="module.name"></div>
+                <div class="col-md-1">
+                    <input type="checkbox" ng-model="module.status" />
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>
