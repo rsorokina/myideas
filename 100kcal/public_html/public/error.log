@@ -1,0 +1,43 @@
+[07-Oct-2016 12:10:03 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Component' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\AdminController.php on line 14
+[12-Nov-2016 10:25:33 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '(' in C:\WinginxNew\Winginx\home\100kcal\public_html\storage\framework\views\9db9cebd23cce4c3e20e26ff928a4a33 on line 24
+[12-Nov-2016 11:08:14 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\AdminController.php on line 107
+[12-Nov-2016 11:08:44 UTC] PHP Fatal error:  Class 'App\Http\Session' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\AdminController.php on line 108
+[12-Nov-2016 11:09:23 UTC] PHP Fatal error:  Class 'Illuminate\Http\Session' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\AdminController.php on line 108
+[20-Nov-2016 09:41:12 UTC] PHP Fatal error:  Call to a member function toArray() on a non-object in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Models\Course.php on line 19
+[20-Nov-2016 09:52:11 UTC] PHP Fatal error:  Using $this when not in object context in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Models\Course.php on line 23
+[20-Nov-2016 10:30:42 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\AdminController.php on line 161
+[20-Nov-2016 10:39:56 UTC] PHP Fatal error:  Call to a member function compositionInfo() on a non-object in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\AdminController.php on line 161
+[20-Nov-2016 10:42:00 UTC] PHP Fatal error:  Call to a member function compositionInfo() on a non-object in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\AdminController.php on line 161
+[20-Nov-2016 10:49:42 UTC] PHP Fatal error:  Class 'Food' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Models\Course.php on line 30
+[20-Nov-2016 10:55:17 UTC] PHP Fatal error:  Class 'Food' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php on line 708
+[20-Nov-2016 10:55:47 UTC] PHP Fatal error:  Class 'Food' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php on line 708
+[20-Nov-2016 11:02:07 UTC] PHP Fatal error:  Class 'Food' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php on line 708
+[20-Nov-2016 11:02:45 UTC] PHP Fatal error:  Class 'Food' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php on line 708
+[20-Nov-2016 11:24:45 UTC] PHP Fatal error:  Class 'App\Models\App\Models\Food' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Models\Course.php on line 27
+[20-Nov-2016 11:25:05 UTC] PHP Fatal error:  Function name must be a string in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Models\Course.php on line 27
+[20-Nov-2016 17:43:33 UTC] PHP Fatal error:  Class 'App\Models\Session' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Models\Course.php on line 43
+[21-Dec-2016 20:32:00 UTC] PHP Fatal error:  Call to undefined function App\Models\getFood() in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Models\Course.php on line 20
+[15-Jan-2017 07:17:23 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Response' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 21
+[15-Jan-2017 07:20:00 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Response' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 28
+[15-Jan-2017 07:22:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Response' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 28
+[15-Jan-2017 07:22:12 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Response' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 28
+[15-Jan-2017 07:23:32 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Response' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 28
+[15-Jan-2017 10:22:27 UTC] PHP Fatal error:  Class 'App\Http\Response' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 30
+[15-Jan-2017 10:25:29 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\HttpFoundation\Response::json() in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 30
+[15-Jan-2017 11:47:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:48:06 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:49:17 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:49:38 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:50:09 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:51:37 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:52:21 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:52:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:57:31 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 11:58:29 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 12:01:36 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 37
+[15-Jan-2017 12:13:13 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 38
+[15-Jan-2017 12:13:51 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 38
+[15-Jan-2017 12:15:57 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 38
+[15-Jan-2017 12:18:41 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 39
+[15-Jan-2017 12:19:51 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 39
+[15-Jan-2017 12:24:27 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in C:\WinginxNew\Winginx\home\100kcal\public_html\app\Http\Controllers\ApiV1Controller.php on line 39
